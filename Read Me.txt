@@ -1,0 +1,15 @@
+site-blocker
+chrome extension to block sites
+
+installing locally:
+save folder
+go to chrome://extensions
+toggle Developer mode
+click Load unpacked
+upload folder
+extension should now be enabled!
+
+To change which websites are blocked 
+go into manifest.json
+under content_scripts
+change what websites "matches" blocks (don't forget the wildcard  *  at the end)
